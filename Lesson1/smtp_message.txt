@@ -1,0 +1,17 @@
+220 SMTP Corp Server
+EHLO 132.247.30.101
+250 
+MAIL FROM: alice@mail.ru
+250 OK
+RCPT TO: bob@gov.mail.ru
+250 OK
+DATA
+354 Enter message, end with "."
+Hello,Bob! I put this file to our file share, as always. That file, you know... Please, download it and take a look. Bye!
+.
+
+250 OK: Queued message as 642384918c
+.
+502 Error: command not recognized
+QUIT
+221 Bye

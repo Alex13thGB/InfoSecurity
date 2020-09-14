@@ -1,0 +1,33 @@
+220 MikroTik FTP server (MikroTik 6.27) ready
+USER admin
+331 Password required for admin
+PASS pa$$w0rd
+230 User admin logged in
+SYST
+215 UNIX MikroTik 6.27
+PORT 192,168,88,252,209,126
+200 PORT command successful
+LIST
+150 Opening data connection
+226 Transfer complete
+CWD skins
+250 CWD command successful
+PORT 192,168,88,252,195,228
+200 PORT command successful
+LIST
+150 Opening data connection
+226 Transfer complete
+CWD ../
+250 CWD command successful
+PORT 192,168,88,252,155,62
+200 PORT command successful
+LIST
+150 Opening data connection
+226 Transfer complete
+PORT 192,168,88,252,176,189
+200 PORT command successful
+RETR urgent_file.txt
+150 Opening ASCII mode data connection for /urgent_file.txt (95 bytes)
+226 ASCII transfer complete
+QUIT
+221 Closing
